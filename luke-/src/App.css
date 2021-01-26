@@ -1,0 +1,86 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+img {
+  opacity: 0.4;
+  align-items: center;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.starwars-form {
+  max-width: 1000px;
+}
+
+.form-input,
+button,
+select,
+option {
+  color: white;
+  border: 2px solid white;
+  position: relative;
+  left: 550px;
+  bottom: 100px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-input {
+  max-width: 35px;
+}
+
+select,
+option {
+  max-width: 300px;
+}
+
+label {
+  color: white;
+  position: relative;
+  left: 550px;
+  bottom: 100px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgba(214, 214, 25, 0.815);
+  color: black;
+  width: 80px;
+  transition: width 2000;
+}
+button:hover {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: blue;
+  color: black;
+}
+.people {
+  position: relative;
+  left: 700px;
+  bottom: 80px;
+  font-size: 20px;
+  color: orange;
+}
+
+.people > p {
+  color: yellow;
+}
+
+.errorMessage {
+  color: blue;
+  background-image: url("https://media.giphy.com/media/3ofSBfxkp3fPTgANB6/giphy.gif");
+  height: 20vh;
+}
